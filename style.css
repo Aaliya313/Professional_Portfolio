@@ -21,11 +21,14 @@ body {
   background-color: black;
   color: white;
   min-width: min-content;
-  width: max-content;
+  width: 40em;
+}
+.header h1 {
+  padding: 1em;
 }
 
-#about img {
-  margin: 0 auto;
+.navbarDiv img {
+  margin-left: 3em;
   width: 200px;
   height: auto;
 }
@@ -40,6 +43,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  padding: 1em;
 }
 
 .navbarDiv li {
@@ -64,6 +68,7 @@ body {
 .page-section {
   display: flex;
   flex-direction: column;
+  padding: 3em;
 }
 
 #projects {
@@ -77,6 +82,8 @@ body {
   min-height: 250px;
   flex: 1 0 50%;
 }
+
+
 
 #contact ul{
   list-style-type: none;
