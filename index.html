@@ -3,29 +3,30 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Responsiveness-->
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Aaliya Ladha Professional Portfolio // Software Developer</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
-  <script src="script.js"></script>
+  <title>Aaliya Ladha Professional Portfolio // Software Developer</title> <!--Unique title-->
+  <link rel="stylesheet" href="style.css" /> <!--Link style.css-->
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" /> <!--Link a nice font-->
+  <script src="script.js"></script> <!--Link script.js-->
 </head>
 
 <body>
   <div class="container">
     <!-- main logo / nav -->
-    <header class="header">
+    <header class="header"> <!--Header, when user opens the page, sees my name, navbar and an avatar-->
       <h1>Aaliya Ladha</h1>
 
-      <section class="navbar">
-        <div class="navbarDiv">
-          <nav>
+      <section class="navbar"> <!--Added a section for semantic structure-->
+        <div class="navbarDiv"> <!--Added a div class, easier to refer to in the CSS-->
+          <nav> <!--To indicate navbar functionality-->
             <ul>
-              <li><a href="#about">About me</a></li>
+              <li><a href="#about">About me</a></li> <!--the # part scrolls down to the part of the UI when clicked on-->
               <li><a href="#projects">My Projects</a></li>
               <li><a href="#contact">Contact</a></li>
+              <!--Future development: Add a blog section, using flexbox and link to an article on one of these make your own blog dev accounts-->
             </ul>
-            <img src="images\hijabiAvatar.jpg" alt="Image of Aaliya Ladha" width="200px" height="auto" />
+            <img src="images\hijabiAvatar.jpg" alt="Image of Aaliya Ladha" width="200px" height="auto" /> <!--Avatar image-->
           </nav>
         </div>
 
@@ -36,14 +37,14 @@
 
     <main class="page-wrapper">
       <!-- about me -->
-      <section class="page-section" id="about">
+      <section class="page-section" id="about"> <!--Sections for semantic structure-->
         <h2>About Me</h2>
-        <h5>Degree: BSc in Pharmaceutical Chemistry <br>
+        <h5>Degree: BSc in Pharmaceutical Chemistry <br> <!--Next line functionality-->
           Courses and Certifications:
           <ul>
-            <li>Web development course with CodeFirstGirls, June to August 2022</li>
-            <li>Novus Full-stack development programme at Capita, August to October 2022</li>
-            <li>Front-end development Bootcamp with edX, November 2022 to March 2023</li>
+            <li>Course one, dates</li> <!--I would fill in these sections as I could and went on, this challenge was just made as a template-->
+            <li>Course Two, dates</li>
+            <li>Course Three, dates</li>
           </ul>
           <br>
           Why Software Development?
@@ -54,21 +55,21 @@
             ex nesciunt saepe et velit expedita. Aut enim quibusdam et autem atque nam
             eligendi minima aut laborum molestias et tenetur placeat.
           </p>
-        </h5>
+        </h5> <!--By combining all the text in one h5 tag, the text can look more together rather than really far apart-->
       </section>
 
       <!-- portfolio container -->
       <section class="page-section" id="projects">
         <div class="projects-header">
           <h2>My Projects</h2>
-          <h5>Click the Images to be taken to the deployed application</h5>
+          <h5>Click the Images to be taken to the deployed application</h5> <!--Helps user navigate the interface-->
         </div>
 
-        <div class="bigBox">
+        <div class="bigBox"> <!--This would be the first image that the user sees and hence it will be bigger than the rest, so need to have it's own class for style.css later-->
           <div class="mainblocks" id="block1">
-            <h5>Random Number Generator<br>
+            <h5>Random Number Generator<br> <!--Titles per image and what languages each project was made in-->
               Made in: HTML, CSS and JavaScript</h5>
-            <a href="https://aaliya313.github.io/Module-5-Homework-Password-Generator-Challenge">
+            <a href="https://aaliya313.github.io/Module-5-Homework-Password-Generator-Challenge"> <!--Embed a-tag in img-tag to create link when image is clicked on to the deployed application-->
               <img src="images\02-portfolio-1.jpg" alt="First Project Image" height="450px" width="100%" />
             </a>
           </div>
@@ -77,7 +78,7 @@
           <div class="mainblocks" id="block2">
             <h5>Title 2<br>
               Made in: X, Y</h5>
-            <a href="https://aaliya313.github.io/Module-5-Homework-Password-Generator-Challenge">
+            <a href="https://aaliya313.github.io/Module-5-Homework-Password-Generator-Challenge"> <!--Deployed application the same for all at the moment, will add other deployed link when those are made-->
               <img src="images\02-portfolio-2.jpg" alt="Second Project Image" height="200px" width="100%" />
             </a>
           </div>
@@ -114,23 +115,24 @@
       <br>
 
       <!--Contact-->
-      <section class="page-section" id="contact">
-        <h2>Contact Me</h2>
+      <section class="page-section" id="contact"> <!--Semantic stucture -->
+        <h2>Contact Me</h2> 
         <ul>
-          <li><a href="exampleemail@gmail.com">Email</a></li>
+          <li><a href="exampleemail@gmail.com">Email</a></li> <!--Links to socials and ways to contact me if needed-->
           <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
           <li><a href="https://www.instagram.com/">Instagram</a></li>
         </ul>
         <br>
 
 
-        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> <!--added the button functionality to scroll to the top of the page. 
+          Used W3Schools for this code: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp-->
 
     </main>
   </div>
 </body>
 <footer class="footer">
-  <h6>Made by Aaliya Ladha</h6>
+  <h6>Made by Aaliya Ladha</h6> <!--A simple footer-->
 </footer>
 
 </html>
