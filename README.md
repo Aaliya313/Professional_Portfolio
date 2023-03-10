@@ -6,6 +6,8 @@ Making a professional portfolio of work to showcase skills and talents to employ
 
 ## Deployed Application Link
 
+https://aaliya313.github.io/Professional_Portfolio/
+
 ## Screenshot
 
 The screenshot shows the finished product:
