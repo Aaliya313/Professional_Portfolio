@@ -10,7 +10,7 @@ Making a professional portfolio of work to showcase skills and talents to employ
 
 The screenshot shows the finished product:
 
-![portfolio demo](./images/01-css-challenge-demo.gif)
+![portfolio screenshot](images\Screenshot .png)
 
 ## Credits
 
